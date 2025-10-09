@@ -63,7 +63,7 @@ parameter. When calling `All()` you must specify the fields you need
 when returning all countries). Example fields: `name`, `cca2`,
 `capital`, `currencies`, `flags`, `population`.
 
-Examples
+## Examples
 
 - Get all countries with only name and cca2:
 
