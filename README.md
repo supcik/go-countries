@@ -12,16 +12,16 @@ This small, dependency-light package provides typed access to https://restcountr
 
 ## Installation
 
-The module path is `github.com/supcik/countries`. To add it to your project use Go modules:
+The module path is `github.com/supcik/go-countries`. To add it to your project use Go modules:
 
 ```bash
-go get github.com/supcik/countries@latest
+go get github.com/supcik/go-countries@latest
 ```
 
 or import it directly in your code and run `go mod tidy`:
 
 ```go
-import "github.com/supcik/countries"
+import "github.com/supcik/go-countries"
 ```
 
 ## Quick example
@@ -35,7 +35,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/supcik/countries"
+	"github.com/supcik/go-countries"
 )
 
 func main() {
