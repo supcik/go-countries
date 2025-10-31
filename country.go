@@ -2,6 +2,9 @@
 //
 // SPDX-License-Identifier: MIT
 
+// Package countries provides data structures for representing country information.
+// It also includes functions to retrieve country data from the REST Countries API (https://restcountries.com/).
+
 package countries
 
 // NativeNameT represents the native name structure
@@ -39,9 +42,9 @@ type Demonyms struct {
 	M string `json:"m"` // Male demonym
 }
 
-// Car represents the driving side and distinguised (oval) signs of a country.
+// Car represents the driving side and distinguished (oval) signs of a country.
 type Car struct {
-	Signs []string `json:"signs"` // Car distinguised (oval) signs
+	Signs []string `json:"signs"` // Car distinguished (oval) signs
 	Side  string   `json:"side"`  // Car driving side
 }
 
@@ -84,7 +87,7 @@ type Country struct {
 	Population   int                 `json:"population"`   // Country population
 	Maps         map[string]string   `json:"maps"`         // Link to Google maps and Open Street maps
 	Gini         map[string]float64  `json:"gini"`         // Worldbank Gini index
-	Car          Car                 `json:"car"`          // Car driving side and distinguised (oval) signs
+	Car          Car                 `json:"car"`          // Car driving side and distinguished (oval) signs
 	PostalCode   PostalCode          `json:"postalCode"`   // Country postal codes
 	StartOfWeek  string              `json:"startOfWeek"`  // Day of the start of week (Sunday/Monday/Saturday)
 	Timezones    []string            `json:"timezones"`    // Timezones

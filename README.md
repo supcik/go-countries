@@ -1,5 +1,11 @@
 # Go REST Countries API Wrapper
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/supcik/go-countries.svg)](https://pkg.go.dev/github.com/supcik/go-countries)
+[![Go Report Card](https://goreportcard.com/badge/github.com/supcik/go-countries)](https://goreportcard.com/report/github.com/supcik/go-countries)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Go Version](https://img.shields.io/badge/Go-1.24+-00ADD8?logo=go)
+![Static Badge](https://img.shields.io/badge/Made%20In-HEIA--FR-007CB7)
+
 Go wrapper for the REST Countries API (API v3.1).
 
 This small, dependency-light package provides typed access to https://restcountries.com/ (v3.1). It mirrors the API endpoints and returns a convenient `Country` struct for JSON responses.
